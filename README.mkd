@@ -1,7 +1,7 @@
 
 # Zh Wrap Vim Plugin
 
-Support chinese words text wrapping
+Support chinese text wrapping.
 
 this will translate:
 
@@ -18,12 +18,22 @@ into this:
     由於部 族的每個成員從幼年時起，便被訓練成作清明夢的能手 ，所以這個部族的
     人在精 神生活上都比較充實與自信。
 
+## Install
+
+This requires Lingua::ZH::Wrap CPAN module, you can install this via cpanminus or cpan shell.
+
+    $ sudo cpanm Lingua::ZH::Wrap
+
+or
+
+    $ sudo cpan Lingua::ZH::Wrap
+
+Then
+
+    $ make link
+
 ## key mappings and commands:
 
     vmap zgq
     command Zhwrap
-
-
-
-
 
