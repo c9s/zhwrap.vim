@@ -1,0 +1,12 @@
+#!/usr/bin/env perl
+use utf8;
+use Lingua::ZH::Wrap;
+$initial_tab = "\t";        # Tab before first line
+$subsequent_tab = "";       # All other lines flush left
+
+
+use Encode;
+binmode STDOUT,":utf8";
+@lines = <>;
+map { Encode::_utf8_on( $_ )  } @lines;
+print wrap( $initial_tab, $subsequent_tab, @lines );

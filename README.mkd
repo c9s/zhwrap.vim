@@ -1,0 +1,7 @@
+
+
+# Zh Wrap Plugin
+
+    vmap zgq
+    command Zhwrap
+
