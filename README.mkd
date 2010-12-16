@@ -1,7 +1,9 @@
 
 # Zh Wrap Vim Plugin
 
-Support chinese text wrapping.
+Vim doesn't support text wrapping for chinese. `gq` only formats half-chars
+
+So this plugin uses a simple filter to wrap chinese text.
 
 this will translate:
 
